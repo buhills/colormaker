@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+.makers{
+    margin: 10px auto;
+    height: 30px;
+    width: 200px;
+}
+.red{
+    height: 30px;
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    width: 200px;
+}
+.green{
+    height: 30px;
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    width: 200px;
+}
+.blue{
+    height: 30px;
+    background: linear-gradient(90deg, rgb(4, 32, 153) , rgb(7, 28, 133), rgb(0, 0, 150));
+    width: 200px;
+}
+.sleeve{
+    width: 100px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    border-left: 10px double black;
+}
+.cap{
+    height: 30px;
+    width: 50px;
+}
+.cap, .sleeve{
+    display: inline-block;
+}
